@@ -1,0 +1,11 @@
+*~
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+*.swp
+/cabal.sandbox.config
+/dist
+/TAGS
+/tags
+/paas-sec.cabal

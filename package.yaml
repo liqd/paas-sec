@@ -1,0 +1,31 @@
+name:        paas-sec
+version:     0.1.0
+license:     AGPL
+copyright:   2016-2017 liquid democracy e.V. Berlin
+author: >
+  Matthias Fischmann <mf@zerobuzz.net>
+  Andor Penzes <andor.penzes@gmail.com>
+maintainer:  matthias.fischmann@liqd.net
+category:    Web
+
+ghc-options: -Wall
+
+dependencies:
+    - base >=4.8 && <4.9
+    - free
+    - hspec
+    - lens
+    - string-conversions
+    - transformers
+
+library:
+  source-dirs: src
+
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs:
+      - tests
+      - src
+    dependencies:
+      - hspec
